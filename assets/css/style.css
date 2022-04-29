@@ -1,0 +1,22 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#trangchu-main{
+
+}
+#trangchu-header{
+    height: 46px;
+    background: #00923d;
+}
+#trangchu-section{
+
+}
+#trangchu-main{
+
+}
+#footer{
+
+}
