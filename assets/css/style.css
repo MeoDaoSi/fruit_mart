@@ -4,12 +4,29 @@
     margin: 0;
     box-sizing: border-box;
 }
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
 #trangchu-main{
 
 }
 #trangchu-header{
     height: 46px;
     background: #00923d;
+}
+.trangchu-nav-container li a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+}
+.trangchu-nav-container li:hover a{
+    color: orangered;
+}
+.trangchu-nav-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
 }
 #trangchu-section{
 
