@@ -6,6 +6,7 @@
 }
 html{
     font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
 }
 #trangchu-main{
 
@@ -13,6 +14,10 @@ html{
 #trangchu-header{
     height: 46px;
     background: #00923d;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 .trangchu-nav-container li a{
     color: #fff;
@@ -20,20 +25,121 @@ html{
     line-height: 46px;
     padding: 0 24px;
 }
+.trangchu-nav-container li {
+
+}
 .trangchu-nav-container li:hover a{
     color: orangered;
 }
 .trangchu-nav-container {
     display: flex;
-    justify-content: flex-end;
-    margin-right: 30px;
+    justify-content: end;
+    margin-right: 50px;
+    list-style: none;
 }
+.trangchu-logo {
+    margin-right: 400px;
+    height: auto;
+}
+/* ---------Section--------- */
 #trangchu-section{
-
+    margin-top: 46px;
+    width: 100%;
 }
+.section-banner-img{
+    width: 100%;
+}
+.slider-about {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 64px 0;
+}
+.slider-about  h1 {
+    text-align: center;
+    letter-spacing: 2px;
+}
+.slider-about  p{
+    text-align: justify;
+    font-size: 15px;
+    margin-top: 24px;
+    text-transform: none;
+    line-height: 20px;
+}
+
 #trangchu-main{
 
 }
+
+.trangchu-list-items {
+    margin: 0 124px;
+    padding: 0 15px;
+}
+.trangchu-container-title {
+    position: relative;
+
+}
+.trangchu-title {
+    position: absolute;
+    font-weight: bolder;
+    font-size: 21px;
+}
+.trangchu-container-title > span::after {
+    content: "";
+    width: 50px;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    background: #00923d;
+}
+.trangchu-extend {
+    position: absolute;
+    right: 0;
+    text-decoration: none;
+    color: black;
+    top: 0;
+}
+.trangchu-container-items {
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.trangchu-item {
+    border: 1px solid #EFEFEF;
+    border-radius: 3px;
+    margin-top: 15px;
+    /* width: 24%; */
+    padding-right: 14px;
+}
+.trangchu-item-img {
+    width: 100%;
+}
+.trangchu-item-desc {
+    margin: 10px;
+}
+.trangchu-item-heading {
+    font-size: 16px;
+    text-transform: none;
+    color: #333;
+}
+.trangchu-item-cost {
+    color: red;
+    margin: 8px 0px;
+}
+.trangchu-item-btn {
+    text-decoration: none;
+    font-size: 12px;
+    border: 1px solid #EFEFEF;
+    color: #666;
+    padding: 12px;
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-left: 72px;
+    display: inline-block;
+}
+
 #footer{
 
 }
