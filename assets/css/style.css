@@ -9,7 +9,8 @@ html{
     text-transform: uppercase;
 }
 #trangchu-main{
-
+    max-width: 1350px;
+    margin: auto;
 }
 #trangchu-header{
     height: 46px;
@@ -19,6 +20,8 @@ html{
     left: 0;
     right: 0;
     z-index: 10000000;
+    max-width: 1350px;
+    margin: auto;
 }
 .trangchu-nav-container li a{
     color: #fff;
@@ -42,14 +45,106 @@ html{
     margin-right: 400px;
     height: auto;
 }
-/* ---------Section--------- */
+
+/* ----- slider start ----- */
+#trangchu-slider{
+    margin: 46px 0 0 0;
+    padding: 0;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #23E3C9;
+}
+.slider {
+    width: 100%;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.slides {
+    width: 500%;
+    height: 500px;
+    display: flex;
+}
+.slides input {
+    display: none;
+}
+.slide {
+    width: 20%;
+    transition: 2s;
+}
+.slide img{
+    width: 100%;
+    height: 500px;
+}
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    display: none;
+}
+.manual-btn:not(:last-child){
+    margin-right: 40px;
+}
+.munual-btn:hover{
+    background: #40D3DC;
+}
+#radio1:checked ~ .first{
+    margin-left: 0;
+}
+#radio2:checked ~ .first{
+    margin-left: -20%;
+}
+#radio3:checked ~ .first{
+    margin-left: -40%;
+}
+.navigation-auto {
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+}
+.navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+    display: none;
+}
+.navigation-auto div:not(:last-child){
+    margin-right: 40px;
+}
+#radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+}
+#radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+}
+#radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+}
+
+/* ----- slider end ----- */
+
+/* ----- section start ----- */
+
+/* ---- can sua lai ---- */
 #trangchu-section{
     margin-top: 46px;
     width: 100%;
 }
-.section-banner-img{
-    width: 100%;
-}
+/* ---- can sua lai ---- */
 .slider-about {
     width: 800px;
     margin-left: auto;
@@ -67,6 +162,7 @@ html{
     text-transform: none;
     line-height: 20px;
 }
+/* ----- section end ----- */
 
 /* -------- main -------- */
 

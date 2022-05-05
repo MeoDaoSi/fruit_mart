@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
 </head>
 <body>
-    <div id="trangchu-main">
+    <div id="trangchu">
         <header id="trangchu-header">
             <nav id="trangchu-nav">
                 <ul class="trangchu-nav-container">
@@ -30,8 +30,46 @@
                 </ul>
             </nav>
         </header>
+        <div id="trangchu-slider">
+            <!-- image slider end -->
+            <div class="slider">
+                <div class="slides">
+                    <!-- radio buttons start -->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <!-- radio buttons end -->
+                    <!-- slide images start -->
+                    <div class="slide first">
+                        <img src="./assets/img/img-trangchu/slide_index_1.webp" alt="">
+                    </div>
+                    <div class="slide ">
+                        <img src="./assets/img/img-trangchu/slide_index_2.jpg" alt="">
+                    </div>
+                    <div class="slide ">
+                        <img src="./assets/img/img-trangchu/slide_index_3.webp" alt="">
+                    </div>
+                    <!-- slide images end -->
+                    <!-- automatic navigation start -->
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                    </div>
+                    <!-- automatic navigation end -->
+                </div>
+                <!-- manual navigation start -->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+
+                </div>
+                <!-- manual navigation end -->
+            </div>
+            <!-- image slider start -->
+        </div>
         <section id="trangchu-section">
-            <img class="section-banner-img" src="./assets/img/img-trangchu/slide_index_1.webp" alt="">
             <div class="section-slider">
                 <div class="slider-about">
                     <h1 class="about-heading">FRUIT STORE</h1>
@@ -229,5 +267,6 @@
             </div>
         </footer>
     </div>
+    <script src="./main.js"></script>
 </body>
 </html>
