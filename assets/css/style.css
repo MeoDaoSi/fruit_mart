@@ -12,6 +12,7 @@ html{
     max-width: 1350px;
     margin: auto;
 }
+/* ----- header start ----- */
 #trangchu-header{
     height: 46px;
     background: #00923d;
@@ -23,11 +24,29 @@ html{
     max-width: 1350px;
     margin: auto;
 }
+.trangchu-nav-container {
+    display: flex;
+    justify-content: space-between;
+    /* margin-right: 50px; */
+    list-style: none;
+}
+.trangchu-logo {
+    /* margin-right: 400px;
+    height: auto; */
+    padding-left: 139px;
+}
+.nav-container {
+    display: flex;
+    padding-right: 139px;
+    /* justify-content: space-between; */
+}
+.nav-container li a {
+    padding: 0 12px;
+}
 .trangchu-nav-container li a{
     color: #fff;
     text-decoration: none;
     line-height: 46px;
-    padding: 0 24px;
 }
 .trangchu-nav-container li {
     font-weight: 550;
@@ -35,16 +54,8 @@ html{
 .trangchu-nav-container li:hover a{
     color: orangered;
 }
-.trangchu-nav-container {
-    display: flex;
-    justify-content: end;
-    margin-right: 50px;
-    list-style: none;
-}
-.trangchu-logo {
-    margin-right: 400px;
-    height: auto;
-}
+
+/* ----- header end ----- */
 
 /* ----- slider start ----- */
 #trangchu-slider{
@@ -165,10 +176,6 @@ html{
 /* ----- section end ----- */
 
 /* -------- main -------- */
-
-#trangchu-main{
-
-}
 
 .trangchu-list-items {
     margin: 0 124px 24px;
