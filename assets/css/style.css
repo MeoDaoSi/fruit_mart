@@ -15,47 +15,6 @@ html{
 
 /* ----- header start ----- */
 
-/* #trangchu-header{
-    height: 46px;
-    background: #00923d;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10000000;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-.trangchu-logo {
-    margin-left: 70px;
-}
-.trangchu-nav {
-    
-}
-.trangchu-nav-container li a{
-    color: #fff;
-    text-decoration: none;
-    line-height: 46px;
-    padding: 0 24px;
-}
-.trangchu-nav-container li {
-    font-weight: 550;
-}
-.trangchu-nav-container li:hover a{
-    color: orangered;
-}
-.trangchu-nav-container {
-    display: flex;
-    justify-content: end;
-    list-style: none;
-    margin-right: 50px;
-}
-.trangchu-logo {
-    margin-right: 400px;
-    height: auto;
-} */
-
 header {
     background-color: #00923d;
     width: 100%;
@@ -229,10 +188,6 @@ ul.navbar li a:hover {
 /* ----- section end ----- */
 
 /* -------- main -------- */
-
-#trangchu-main{
-
-}
 
 .trangchu-list-items {
     margin: 0 124px 24px;
