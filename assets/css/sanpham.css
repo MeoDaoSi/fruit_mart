@@ -39,7 +39,7 @@ ul.navbar li {
 ul.navbar li a, ul.navbar li i {
     line-height: 20px;
     position: relative;
-    display: block;
+    display: inline;
     padding: 8px 13px;
     white-space: nowrap;
     font-size: 15px;

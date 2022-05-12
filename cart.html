@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Store</title>
+    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="trangchu">
+        <!-- header start -->
+        
+        <header>
+            <nav>
+                <img src="./assets/img/img-trangchu/logo.png" alt="" srcset="">
+                <ul class="navbar">
+                    <li><a href="./index.html">Trang chủ</a></li>
+                    <li><a href="./sanpham.html">Sản phẩm</a></li>
+                    <li><a href="">giới thiệu</a></li>
+                    <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
+                    <li><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- header end -->
+
+        <!-- content start -->
+        
+        <main id="trangchu-main">
+            <div class="trangchu-list-items">
+                <div class="trangchu-container-title">
+                    <span class="trangchu-title">Giỏ hàng</span>
+                </div>
+            </div>
+        </main>
+        <section id="cart-container">
+            <table width="100%">
+                <thead>
+                    <tr>
+                        <td>Sản phẩm</td>
+                        <td>Tên Sản phẩm</td>
+                        <td>Đơn giá</td>
+                        <td>Số lượng</td>
+                        <td>Thành tiền</td>
+                        <td>Xóa</td>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td><img src="./assets/img/img-trangchu/ca_chua_thuong.jpg" alt=""></td>
+                        <td><h5>Cà chua bi thường - 300gr</h5></td>
+                        <td><h5>9,000₫</h5></td>
+                        <td><input class="w-25 p1-1" value="1" type="number"></td>
+                        <td><h5>9,000₫</h5></td>
+                        <td><a href=""><i class="ti-trash"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/img/img-trangchu/ca_chua_thuong.jpg" alt=""></td>
+                        <td><h5>Cà chua bi thường - 300gr</h5></td>
+                        <td><h5>9,000₫</h5></td>
+                        <td><input class="w-25 p1-1" value="1" type="number"></td>
+                        <td><h5>9,000₫</h5></td>
+                        <td><a href=""><i class="ti-trash"></i></a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="./assets/img/img-trangchu/ca_chua_thuong.jpg" alt=""></td>
+                        <td><h5>Cà chua bi thường - 300gr</h5></td>
+                        <td><h5>9,000₫</h5></td>
+                        <td><input class="w-25 p1-1" value="1" type="number"></td>
+                        <td><h5>9,000₫</h5></td>
+                        <td><a href=""><i class="ti-trash"></i></a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section id="cart-bottom" class="cart-bottom-container">
+            <div class="row">
+                <div class="cart-bottom-note">
+                    <h5>Ghi chú:</h5>
+                    <textarea name="note" id="note" cols="70" rows="7"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="cart-bottom-buy">
+                    <h5>Giỏ hàng</h5>
+                    <div class="cart-bottom-container">
+                        <h6>Thành tiền</h6>
+                        <h6>35,000₫</h6>
+                    </div>
+                    <button>THANH TOÁN</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- footer start -->
+
+        <footer>
+            <div class="footer-wrapper">
+                <div class="footer-services">
+                    <div class="service">
+                        <div class="title_block">THÔNG TIN HỖ TRỢ</div>
+                        <div class="vertical-service">
+                            <a href="#">Tìm hiểu về cửa hàng</a>
+                            <a href="#">Các chi nhánh cửa hàng</a>
+                            <a href="#">Hướng dẫn mua hàng online</a>
+                            <a href="#">Giao hàng & thanh toán</a>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="title_block">DỊCH VỤ KHÁCH HÀNG</div>
+                        <div class="vertical-service">
+                            <a href="#">Giới thiệu</a>
+                            <a href="#">Tuyển dụng</a>
+                            <a href="#">Liên hệ</a>
+                            <a href="#">Góp ý & khiếu nại</a>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="title_block">DỊCH VỤ & HỖ TRỢ</div>
+                        <div class="vertical-service">
+                            <a href="#">Chính sách giao hàng</a>
+                            <a href="#">Chính sách đổi trả</a>
+                            <a href="#">Điều khoản</a>
+                            <a href="#">Bảo mật</a>
+                        </div>
+                    </div>
+                    <div class="service">
+                        <div class="title_block">BẢN TIN</div>
+                        <div class="vertical-service">
+                            <p>Đăng Ký Thành Viên Để Nhận Bản Tin Mỗi Ngày:</p>
+                        </div>
+                        <form action="">
+                            <input type="text" name="" id="">
+                            <input type="button" value="Gửi">
+                        </form>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-information">
+                    <div class="information">
+                        <div class="logo-image">
+                            <img src="./assets/img/img-trangchu/logo.png" alt="" srcset="">
+                        </div>
+                        <div class="block_content">
+                            <ul class="list">
+                                <li><i class="fa fa-map-marker">&nbsp;</i> - Địa chỉ:  Số 400 Nguyễn Văn Cừ, phường An Khánh, quận Ninh Kiều, thành phố Cần Thơ.</li>
+                                <li><i class="fa fa-phone">&nbsp;</i>- Điện thoại: 04903000000</li>
+                                <li><i class="fa fa-envelope">&nbsp;</i>- Địa chỉ email: <a href="#">mail@gmail.com</a></li>
+                                  
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="social-link">
+                        <p class="copyright">
+                            © Bản quyền thuộc về MeoDaoSi
+                        </p>
+                        <div class="social">
+                            <ul class="list-unstyled">
+                                <li class="facebook">
+                                    <a target="_blank" href="/" class="fa fa-facebook"></a>
+                                </li>
+                                <li class="twitter">
+                                    <a class="fa fa-twitter" target="_blank" href="/"></a>
+                                </li>
+                                <li class="google-plus">
+                                    <a class="fa fa-google-plus" target="_blank" href="/"></a>
+                                </li>
+                                <li class="rss">
+                                    <a class="fa fa-rss" target="_blank" href="/"></a>
+                                </li>
+                                <li class="youtube">
+                                    <a class="fa fa-youtube" target="_blank" href="/"></a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- footer start -->
+
+    </div>
+    <!-- <script src="./main.js"></script> -->
+</body>
+</html>
