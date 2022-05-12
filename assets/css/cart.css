@@ -9,7 +9,7 @@ html{
     text-transform: uppercase;
 }
 #trangchu{
-    max-width: 1350px;
+    width: 100%;
     margin: auto;
     min-height: 274px;
 }
@@ -223,7 +223,7 @@ footer {
     justify-content: center;
     align-items: center;
     text-transform: none;
-    
+    margin: auto;
  }
  
  .footer-wrapper {
