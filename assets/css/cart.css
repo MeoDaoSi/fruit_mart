@@ -1,3 +1,5 @@
+/* author : Le Van Tinh 2014621  */
+
 /* Reset CSS */
 *{
     padding: 0;
@@ -111,6 +113,7 @@ ul.navbar li a:hover {
     text-transform: none;
     font-size: 16px;
     margin-bottom: 24px;
+    min-height: 274px;
 }
 
 #cart-container table{

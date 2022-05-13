@@ -1,4 +1,4 @@
-
+/* author : Le Van Tinh 2014621  */
 let loadMoreBtn = document.querySelector("#more");
 let currentItem = 8;
 loadMoreBtn.onclick = () =>{

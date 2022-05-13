@@ -1,3 +1,4 @@
+/* author : Le Van Tinh 2014621  */
 var counter = 1;
 setInterval(function(){
     document.getElementById('radio' + counter).checked = true;

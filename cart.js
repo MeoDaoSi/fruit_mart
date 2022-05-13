@@ -1,3 +1,4 @@
+/* author : Le Van Tinh 2014621  */
 let carts = document.querySelectorAll('.add-cart');
 
 let products = [
