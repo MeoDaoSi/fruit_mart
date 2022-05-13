@@ -1,0 +1,376 @@
+/* Reset CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+#trangchu{
+    position: relative;
+}
+/* ----- header start ----- */
+
+header {
+    background-color: #00923d;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 46px;
+    width: 81%;
+}
+
+nav img {
+    cursor: pointer;
+}
+
+ul.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+ul.navbar li {
+    float: left;
+}
+
+ul.navbar li a, ul.navbar li i {
+    line-height: 20px;
+    position: relative;
+    display: block;
+    padding: 8px 13px;
+    white-space: nowrap;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+ul.navbar li a:hover {
+    cursor: pointer;
+    color: orange;
+}
+
+
+/* ----- header end ----- */
+
+
+
+
+#footer {
+    
+    width: 100%;
+    background-color: #00923d;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: none;
+    
+ }
+ 
+ .footer-wrapper {
+     width: 79%;
+     padding: 20px 0;
+ }
+ 
+ .footer-wrapper .footer-services {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 20px;
+ }
+ 
+ .footer-services .service {
+     width: 33%;
+ }
+ 
+ .title_block {
+     font-size: 14px;
+     font-weight: 700;
+     line-height: 30px;
+     text-transform: uppercase;
+ }
+ 
+ .service .vertical-service a, .service .vertical-service p {
+     display: block;
+     font-size: 14px;
+     color: #ffffff;
+     text-decoration: none;
+     padding: 4px 0;
+     margin: 0;
+     width: fit-content;
+ }
+ 
+ .service input {
+     position: relative;
+     border-color: #333;
+     font-size: 12px;
+     height: 38px;
+     padding: 0px 12px;
+     color: #330909;
+     background-color: #fff;
+     background-image: none;
+     border: 1px solid #ccc;
+     border-right: 0;
+     border-radius: 0px;
+     margin-top: 15px;
+ }
+ 
+ .service input[type='text'] {
+     width: 60%;
+ }
+ 
+ .service input:focus {
+     outline: 0;
+ }
+ 
+ .footer-information {
+     margin-top: 20px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ .footer-information .information {
+     display: flex;
+ }
+ 
+ .block_content ul {
+     margin: 0 35px;
+     padding: 0 15px;
+     list-style-type: none;
+     border-left: 1px solid #f1f1f1;
+ }
+ 
+ .block_content ul li {
+     font-weight: 500;
+     font-size: 12px;
+     padding: 6px;
+ }
+ 
+ .block_content ul li a {
+     color: #fff;
+     text-decoration: none;
+ }
+ 
+ .copyright {
+     font-weight: 700;
+     font-size: 14px;
+     color: #fff;
+     margin: 0px;
+     padding: 0px;
+ }
+ 
+ .social {
+     float: right
+ }
+ 
+ .social .list-unstyled {
+     padding-left: 0;
+     margin: 5px 0px;
+     list-style: none;
+ }
+ 
+ .social .list-unstyled li {
+     float: left;
+     text-align: center;
+     padding: 4px 0;
+ }
+ 
+ .social .list-unstyled li a {
+     display: inline-block;
+     height: 30px;
+     width: 30px;
+     color: #333;
+     line-height: 33px;
+     background: #fff;
+     box-shadow: 0 3px 5px #616161;
+     border-radius: 50%;
+     margin: 0 5px;
+     text-decoration: none;
+     transition: transform 300ms;
+     font-size: 20px;
+     text-align: center;
+ }
+ 
+ .social .list-unstyled li a:hover {
+     color: #616161;
+     transform: translatey(-5px);
+ }
+
+/* ----- footer end ----- */
+/* lien he */
+/* Comon */
+.clear{
+    clear: both;
+}
+
+.text-white{
+    color: #fff !important;
+}
+
+.text-center {
+    text-align: center;
+}
+.text15{
+    font-size: 15px;
+    text-transform: none;
+}
+.ml-8{
+    margin-left: 8px;
+}
+.ml-16{
+    margin-left: 20%;
+}
+.mt-8 {
+    margin-top: 8px !important;
+}
+
+.mt-16{
+    margin-top: 16px !important;
+}
+.row {
+    padding: 0 15px;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.col {
+    float: left;
+}
+.col-half{
+    width: 50%;
+}
+.indam {
+    font-weight: 550;
+    text-transform: none;
+    text-decoration: none;
+}
+.col-1-3{
+    width: 15%;
+}
+.col-2-3{
+    width: 84%;
+}
+.col-full {
+    width: 100%;
+}
+.the-a{
+    display: block;
+    padding: 8px;
+    text-transform: none;
+    text-decoration: none;
+    color: #000;
+}
+.red {
+    color: red !important;
+}
+
+/* main */
+#main {
+    margin-top: 64px;
+
+}
+#main .main-row {
+    width: 95%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#main .lienhe {
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+#main .col-lienhe{
+    padding: 10px;
+    border-left: 1px solid #ccc;
+}
+#main .map-section img{
+    width: 100%;
+}
+#main .main-body{
+    position: relative;
+}
+#main .tieude i{
+    font-weight: 550;
+    margin-right: 8px;
+}
+#main .tieude {
+    padding: 8px 0;
+}
+
+#main .item input{
+    padding: 0 16px;
+    border: none;
+    width: 70%;
+}
+#main .item i{
+    border-right: 1px solid #ccc;
+    padding: 8px;
+    display: inline-block;
+}
+#main .item-element{
+    display: inline-block;
+    
+}
+#main .main-bao{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#main .item {
+    position: relative;
+    margin-bottom: 8px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+    
+}
+.main-body{
+    position: relative;
+}
+#main .nut {
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+#main .main-give{
+    padding: 8px;
+    margin-top: 16px;
+    margin-left: -30px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    cursor: pointer;
+}
+.main-cmt{
+    width: 80%;
+    height: 122px;
+    box-sizing: border-box;
+    padding: 5px;
+    border: 1px solid #ccc;
+    
+}
+#main .diachi{
+    margin: 16px 0;
+}
+#main .phone{
+    margin-bottom: 8px;
+    margin-left: 8px;
+}

@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fruit Store</title>
-    <link rel="stylesheet" href="./assets/css/cart.css">
+    <link rel="stylesheet" href="./assets/css/gioithieu.css">
     <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -19,66 +20,72 @@
                 <ul class="navbar">
                     <li><a href="./index.html">Trang chủ</a></li>
                     <li><a href="./sanpham.html">Sản phẩm</a></li>
-                    <li><a href="./gioithieu.html">giới thiệu</a></li>
-                    <li><a href=""><i class="fa fa-search" aria-hidden="true"></i></a></li>
-                    <li class="cart">
-                        <a href="./cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i><span>0</span></a>
-                    </li>
+                    <li><a href="#">Giới thiệu</a></li>
+                    <li><i class="fa fa-search" aria-hidden="true"></i></li>
+                    <li><i class="fa fa-shopping-cart" aria-hidden="true"></i></li>
                 </ul>
             </nav>
         </header>
 
         <!-- header end -->
-
-        <!-- content start -->
-        
-        <main id="trangchu-main">
-            <div class="trangchu-list-items">
-                <div class="trangchu-container-title">
-                    <span class="trangchu-title">Giỏ hàng</span>
+        <div id="main">
+            <div class="row main-row">
+                <div class="col col-1-3 ">
+                    <a class="the-a red" href="#">Giới thiệu</a>
+                    <a class="the-a" href="./lienhe.html">Liên hệ</a>
                 </div>
-            </div>
-        </main>
-        <section id="cart-container">
-            <table width="100%" class="products-container">
-                <thead>
-                    <tr>
-                        <td>Sản phẩm</td>
-                        <td>Tên Sản phẩm</td>
-                        <td>Đơn giá</td>
-                        <td>Số lượng</td>
-                        <td>Thành tiền</td>
-                        <td>Xóa</td>
-                    </tr>
-                </thead>
-
-                <tbody class="products">
-                    
-                </tbody>
-            </table>
-        </section>
-        <section id="cart-bottom" class="cart-bottom-container">
-            <!-- <div class="row">
-                <div class="cart-bottom-note">
-                    <h5>Ghi chú:</h5>
-                    <textarea name="note" id="note" cols="70" rows="7"></textarea>
-                </div>
-            </div>
-            <div class="row">
-                <div class="cart-bottom-buy">
-                    <h5>Giỏ hàng</h5>
-                    <div class="cart-bottom-container">
-                        <h6>Thành tiền</h6>
-                        <h6>35,000₫</h6>
+                <div class="col col-2-3 col-lienhe">
+                    <div class="col-full main-slider">
+                        <h1 class="lienhe">Giới Thiệu</h1>
+                        <div class="text-vanban">Trang giới thiệu giúp khách hàng hiểu rõ hơn về cửa hàng của bạn. Hãy cung cấp thông tin cụ thể về việc kinh doanh, về cửa hàng, thông tin liên hệ. Điều này sẽ giúp khách hàng cảm thấy tin tưởng khi mua hàng trên website của bạn.</div>
+                    <p class="text-vanban">Một vài gợi ý cho nội dung trang Giới thiệu:</p>
+                    <div class="text-content">
+                        <ul>
+                            <li>
+                                <p class="text-vanban">Bạn là ai</p>
+                            </li>
+                            <li>
+                                <p class="text-vanban">Giá trị kinh doanh của bạn là gì</p>
+                            </li>
+                            <li>
+                                <p class="text-vanban">Địa chỉ cửa hàng</p>
+                            </li>
+                            <li>
+                                <p class="text-vanban">Bạn đã kinh doanh trong ngành hàng này bao lâu rồi</p>
+                            </li>
+                            <li>
+                                <p class="text-vanban">Bạn kinh doanh ngành hàng online được bao lâu</p>
+                            </li>
+                            <li>
+                                <p class="text-vanban">Đội ngũ của bạn gồm những ai</p>
+                            </li>
+                            <li>
+                                <p class="text-vanban">Thông tin liên hệ</p>
+                            </li>
+                            <li><span class="text-vanban">
+                                Liên kết đến các trang mạng xã hội (Twitter, Facebook)
+                            </span></li>
+                        </ul>
                     </div>
-                    <button>THANH TOÁN</button>
+                    <p class="text-vanban">
+                        Bạn có thể chỉnh sửa hoặc xoá bài viết này tại
+                        <a href="#" class="day khongtext"> đây</a>
+                        hoặc thêm những bài viết mới trong phần quản lý
+                        <a href="#" class="nd khongtext"> Trang nội dung.</a>
+                    </p>
+                    </div>
+
                 </div>
-            </div> -->
-        </section>
+                
+            </div>
+            
+        </div>
 
-        <!-- footer start -->
 
-        <footer>
+
+        
+        <!-- footer -->
+        <div id="footer">
             <div class="footer-wrapper">
                 <div class="footer-services">
                     <div class="service">
@@ -161,11 +168,48 @@
                     </div>
                 </div>
             </div>
-        </footer>
+        </div>
 
         <!-- footer start -->
 
     </div>
-    <script src="./cart.js"></script>
-</body>
+    <script src="./main.js"></script>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script></body>
 </html>
